@@ -1,0 +1,34 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 100;
+}
+
+.layot {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.color-black {
+  color: black;
+}
+.color-white {
+  color: white;
+}
+
+@media screen and (max-width: 1220px) {
+  .layot {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .layot {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

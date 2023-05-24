@@ -1,0 +1,159 @@
+.questions {
+	padding-bottom: 50px;
+
+	&__title {
+	font-family: 'Lora', serif;
+	text-transform: uppercase;
+	margin: 0 0 30px 0;
+
+	}
+
+	&__list {
+
+		&-item {
+
+			&-button {
+
+			}
+
+			&-wrap-text {
+
+			}
+		}
+	}
+}
+
+
+
+// wrap-button
+
+// JS
+
+.spoiler_wrap {
+	margin-left: 40px;
+	border-bottom: 1px solid #999999;
+	// margin-bottom: 15px;
+}
+
+.spoiler_wrap.active .spoiler_content {
+	max-height: 500px !important;
+	padding-bottom: 10px;
+	transition: max-height 0.5s ease, padding-bottom 0.3s ease;
+}
+
+.spoiler_wrap.active .spoiler_title {
+	color: #808080;
+	transition: color 0.3s ease;
+}
+
+.spoiler_content {
+	color: #090909;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease, padding-bottom 0.3s ease;
+
+	&-text {
+		margin: 5px 0 5px 0;
+	}
+}
+
+.spoiler_content p {
+	// margin-bottom: 25px;
+}
+
+.plus-minus-toggle {
+	cursor: pointer;
+	height: 21px;
+	position: absolute;
+	width: 21px;
+	left: -40px;
+	top: 50%;
+	z-index: 2;
+}
+
+.plus-minus-toggle:before,
+.plus-minus-toggle:after {
+	background: #000;
+	content: '';
+	height: 2px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 15px;
+	transition: transform 500ms ease;
+}
+
+.plus-minus-toggle:after {
+	transform-origin: center;
+}
+
+.plus-minus-toggle.collapsed:after {
+	transform: rotate(90deg);
+}
+
+.plus-minus-toggle.collapsed:before {
+	transform: rotate(180deg);
+}
+
+.spoiler_title {
+	color: #090909;
+	// font-family: sans-serif;
+	// font-size: 20px;
+	font-weight: 300;
+	// text-transform: uppercase;
+	position: relative;
+	cursor: pointer;
+	padding: 10px 0;
+	transition: color 0.5s ease;
+}
+@media screen and (max-width: 767px) {
+	.spoiler_title {
+			font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 460px) { 
+	.questions {
+		padding-bottom: 50px;
+	
+		&__title {
+			font-size: 20px;
+		
+		}
+	}
+
+
+
+	.burger-menu_button {
+		position: fixed;
+		top: 10px;
+		right: 10px;
+		z-index: 30;
+		width: 60px;
+		height: 60px;
+	}
+
+	.spoiler_title {
+		font-size: 14px;
+	}
+
+
+	.spoiler_content {
+		
+		
+		&-text {
+			font-size: 14px;
+		}
+	}
+}
+
+
+
+
+
+
+
+// СДЕЛАТЬ ФОНТ САЙЗ ДЛЯ ВОПРОСОВ
