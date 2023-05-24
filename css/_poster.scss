@@ -208,10 +208,10 @@
 			background-size: cover;
 			margin-left: auto;
 			margin-right: auto;
-			height: 600px;
+			height: 900px;
 			background-color: rgb(87, 87, 87);
 			background-image: url(../images/poster.jpg);
-			background-size: 900px;
+			background-size: 1400px;
 	
 			&-img {
 				width: 100%;
@@ -220,7 +220,7 @@
 		}
 	
 		&__title {
-			top: 37%;
+			top: 45%;
 			margin: 0;
 			width: 100%;
 			position: absolute;
@@ -233,7 +233,7 @@
 
 		&__text {
 			margin-top: 30px;
-			top: 46%;
+			top: 50%;
 			position: absolute;
 			width: 100%;
 			font-size: 14px;
