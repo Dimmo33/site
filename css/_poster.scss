@@ -208,10 +208,11 @@
 			background-size: cover;
 			margin-left: auto;
 			margin-right: auto;
-			height: 900px;
+			height: 940px;
 			background-color: rgb(87, 87, 87);
 			background-image: url(../images/poster.jpg);
 			background-size: 1400px;
+			background-position: 19% 0;
 	
 			&-img {
 				width: 100%;
@@ -220,7 +221,7 @@
 		}
 	
 		&__title {
-			top: 45%;
+			top: 40%;
 			margin: 0;
 			width: 100%;
 			position: absolute;
@@ -233,7 +234,7 @@
 
 		&__text {
 			margin-top: 30px;
-			top: 50%;
+			top: 45%;
 			position: absolute;
 			width: 100%;
 			font-size: 14px;
@@ -259,7 +260,7 @@
 		max-width: 1800px;
 		background-image: url(../images/beach.jpg);
 		background-size: 1800px;
-		height: 400px;
+		height: 200px;
 
 		&-img {
 			width: 100%;
