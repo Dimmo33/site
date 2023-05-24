@@ -595,7 +595,7 @@ body {
   height: 800px;
   max-width: 1800px;
   background-color: rgb(87, 87, 87);
-  background-image: url(../images/poster.JPG);
+  background-image: url(../images/poster.jpg);
   background-size: 1800px;
 }
 .poster__pic-img {
