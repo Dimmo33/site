@@ -64,8 +64,8 @@
 
 		  
 		<section id="about_me" class="description layot">
-					<h2 class="description__content-subtitle">
-						Обо мне
+					<h2 class="description__content-subtitle layot">
+						ОБО МНЕ
 					</h2>
 
 			<ul class="description__list">
@@ -76,18 +76,18 @@
 				</li>
 				<li class="description__list-column">
 					<h2 class="description__list-subtitle">
-						Обо мне
+						ОБО МНЕ
 					</h2>
 					<p class="description__content-text">
 						Привет, меня зовут Настя!<br/>
 	
-						С 2020 года я создаю мобильный контент для брендов одежды, белья и обуви. Работаю с различными крупными и локальными брендами в Санкт-Петербурге. За несколько лет непрерывной работы я пришла к стилю, который мне ближе всего, а именно созданию «чистых»  снимков на телефон за счет правильного дневного света и грамотной ретуши на постпродакшене. 
+						С 2020 года я создаю мобильный контент для брендов одежды, белья и обуви. Работаю с различными крупными и локальными брендами в Санкт-Петербурге. За несколько лет непрерывной работы я пришла к стилю, который мне ближе всего, а именно созданию «чистых»  снимков на телефон за счет правильного дневного света и грамотной ретуши на постпродакшене. 
 						<br/><br/>
 	
 						В каждой съемке самое важное для меня - детали. На них строится все. Я очень тщательно подхожу к процессу обработки, уделяя внимание нюансам, которые могут портить визуальную конструкцию кадра. 
 						<br/><br/>
 	
-						Подход всегда один - снять, как сделала бы это для себя. Таким образом, в результате работы получается «дорогой», продающий мобильный контент для социальных сетей и маркетплейсов, но с душой!
+						Подход всегда один - снять, как сделала бы это для себя. Таким образом, в результате работы получается «дорогой», продающий мобильный контент для социальных сетей и маркетплейсов, но с душой!
 					</p>
 					<ul class="description__content-list">
 						<li class="description__content-column">
@@ -204,7 +204,8 @@
 					</p>
 				</ul>
 				<h3 class="price__list-column-value">
-					10,000₽
+					5,000₽ / час - от 2-х часов<br>
+					7,000₽ - один съемочный час<br>
 				</h3>
 				<div class="price__list-column-button">
 					<a class="price__list-column-button-link" href="https://t.me/stasyyazz" target="_blank">ЗАПИСАТЬСЯ</a>
@@ -254,7 +255,14 @@
 			</li>
 		</ul>
 
-
+		<div class="price__swipe">
+			<div class="price__swipe-pic">
+				<img class="price__swipe-pic-img" src="images/swipe.png" alt="">
+			</div>
+			<p class="price__swipe-text">
+				листай влево
+			</p>
+		</div>
 
 		<h2 class="price__title layot">
 			СЪЕМКИ И КОНСУЛЬТАЦИИ ДЛЯ ЭКСПЕРТОВ
@@ -370,6 +378,15 @@
 				</div>
 			</li>
 		</ul>
+
+		<div class="price__swipe">
+			<div class="price__swipe-pic">
+				<img class="price__swipe-pic-img" src="images/swipe.png" alt="">
+			</div>
+			<p class="price__swipe-text">
+				листай влево
+			</p>
+		</div>
 	</section>
 	
 
@@ -457,25 +474,19 @@
 		</section>
 
 
+
 		<section id="contacts" class="footer">
-			<p class="footer__text">
-				Если возникли какие-либо вопросы, свяжитесь со мной любым удобным для Вас способом.
-			</p>
-			<div class="footer__icons">
-				<div class="footer__icons-link">
-					<a href="https://instagram.com/stasyyazz?igshid=YmMyMTA2M2Y=" target="_blank">
-						<div class="footer__icons-link-pic">
-							<img class="footer__icons-link-pic-img" src="images/instagram.svg" alt="">
-						</div>
-					</a>
-				</div>
-				<div class="footer__icons-link">
-					<a href="https://t.me/stasyyazz" target="_blank">
-						<div class="footer__icons-link-pic">
-							<img class="footer__icons-link-pic-img" src="images/telegram.svg" alt="">
-						</div>
-					</a>
-				</div>
+			<div class="layot footer__link">
+				<a class="footer__link-button" href="https://instagram.com/stasyyazz?igshid=YmMyMTA2M2Y=" target="_blank">
+					<p class="footer__link-button-text">
+						INSTAGRAM
+					</p>
+				</a>
+				<a class="layot footer__link-button" href="https://t.me/stasyyazz" target="_blank">
+					<p class="footer__link-button-text">
+						TELEGRAM
+					</p>
+				</a>
 			</div>
 		</section>
 
@@ -486,12 +497,12 @@
 
 
 
-				<script>
+	<script>
 				$('.spoiler_title').click(function() {
    			 $(this).find('.plus-minus-toggle').toggleClass('collapsed');
    			 $(this).parent().toggleClass('active');
 				});
-				</script>
+	</script>
 
 	<script>
 		jQuery(document).ready(function($){

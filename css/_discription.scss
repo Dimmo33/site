@@ -1,6 +1,6 @@
 .description {
 
-	height: 640px;
+	height: 500px;
 	position: relative;
 	// display: flex;
 	margin-top: 50px;
@@ -27,6 +27,7 @@
 		}
 	}
 	&__pic {
+		margin-left: 20px;
 		width: 370px;
 		height: 560px;
 		&-img {
@@ -142,6 +143,7 @@
 			
 		}
 		&__pic {
+			margin-left: 0;
 			width: auto;
 			height: auto;
 			&-img {
@@ -164,7 +166,7 @@
 			&-list {
 				left: 10px;
 				position: absolute;
-				bottom: 14%;
+				bottom: -10%;
 			 }
 		}
 
@@ -193,15 +195,31 @@
 	}
 }
 
+@media screen and (max-width: 780px) {
+	.description {
+		height: 640px;
+
+		&__content {
+			position: relative;
+
+			&-list {
+				left: 10px;
+				position: absolute;
+				bottom: 12%;
+			 }
+		}
+	}
+}
+
 @media screen and (max-width: 680px) {
 	.description {
-		height: 1200px;
+		height: 1240px;
 		margin-top: 0;
 		&__pic {
 			padding-right: 60px;
 				padding-left: 60px;
-				min-width: 280px;
-				min-height: 424px;
+				min-width: 220px;
+				min-height: 244px;
 
 			&-img {
 				width: 100%;
@@ -226,12 +244,14 @@
 			// position: static
 
 			&-list {
+				
 				left: none;
 				position: inherit;
 				bottom: none;
 			}
 
 			&-subtitle {
+					padding-left: 40px;
 					display: block;
 				// text-align: center;
 						margin: 0;
@@ -241,8 +261,8 @@
 					}
 			
 					&-text {
-						padding-right: 20px;
-						padding-left: 20px;
+						padding-right: 60px;
+				padding-left: 60px;
 						// margin-top: 30px;
 						font-size: 18px;
 					}
@@ -261,12 +281,12 @@
 
 @media screen and (max-width: 460px) {
 	.description {
-		height: 1200px;
+		height: 1100px;
 		&__pic {
-			padding-right: 10px;
-				padding-left: 10px;
-				min-width: 280px;
-				min-height: 424px;
+			padding-right: 50px;
+				padding-left: 50px;
+				min-width: 100px;
+				min-height: 100px;
 
 			&-img {
 				width: 100%;
@@ -284,32 +304,27 @@
 		}
 
 		&__content {
-			// position: static
-
-			&-list {
-				left: none;
-				position: inherit;
-				bottom: none;
-			}
-		}
-
-		&__content {
 
 			&-subtitle {
+				padding-left: 40px;
 				// text-align: center;
 						margin: 0;
 						font-weight: 100;
 						font-family: 'Lora', serif;
-						font-size: 40px;
+						font-size: 30px;
 						
+					}
+
+					&-list {
+						left: none;
+						position: inherit;
+						bottom: none;
 					}
 			
 					&-text {
 						font-size: 16px;
-						padding-right: 10px;
-					padding-left: 10px;
-						// margin-top: 30px;
-						// font-size: 18px;
+						padding-right: 50px;
+				padding-left: 50px;
 					}
 	
 	
@@ -394,7 +409,11 @@
 }
 	
 
-
+@media screen and (max-width: 360px) {
+	.description {
+		height: 1200px;
+	}
+}
 
 
 
