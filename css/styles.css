@@ -369,7 +369,7 @@ body {
   height: 80px;
   border-radius: 50%;
   background-color: rgb(220, 220, 220);
-  opacity: 0.7;
+  opacity: 0.8;
   border-color: rgb(0, 0, 0);
   transition: 0.4s;
 }
@@ -500,6 +500,7 @@ body {
     height: 100%;
     background-color: #ffffff;
     overflow-y: auto;
+    opacity: 0.9;
     right: -100%;
     transition: 0.8s;
   }
